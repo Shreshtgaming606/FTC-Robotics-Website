@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Photos from The Viltrumites' robot, build process, programming, competitions, and team."
+    />
+    <meta name="theme-color" content="#08090c" />
+    <title>Gallery | The Viltrumites</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%2308090c'/%3E%3Cpath d='M14 15l18 36 18-36h-11l-7 17-7-17z' fill='%23ff5a24'/%3E%3Ccircle cx='32' cy='32' r='25' fill='none' stroke='%238b5cf6' stroke-width='2'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/team-data-v3.js" defer></script>
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <!-- Accessibility helpers and reading progress -->
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="scroll-progress" data-scroll-progress aria-hidden="true"></div>
+    <!-- Primary site header -->
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html" aria-label="The Viltrumites home">
+          <span class="brand-mark" aria-hidden="true">V</span>
+          <span class="brand-copy">
+            <strong>The Viltrumites</strong>
+            <small>FTC Team #36082</small>
+          </span>
+        </a>
+        <div class="nav-shell">
+          <nav
+            class="site-nav"
+            id="primary-navigation"
+            data-site-nav
+            aria-label="Primary navigation"
+          >
+            <a href="index.html" data-nav-link>Home</a>
+            <a href="about.html" data-nav-link>About</a>
+            <a href="members.html" data-nav-link>Members</a>
+            <a href="roles.html" data-nav-link>Roles</a>
+            <a href="robot.html" data-nav-link>Robot</a>
+            <a href="gallery.html" data-nav-link>Gallery</a>
+          </nav>
+          <a class="nav-cta" href="members.html">
+            Meet the Team
+            <span aria-hidden="true">↗</span>
+          </a>
+          <button
+            class="menu-button"
+            type="button"
+            aria-expanded="false"
+            aria-controls="primary-navigation"
+            aria-label="Open navigation"
+            data-menu-button
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- Filterable gallery content -->
+    <main id="main-content">
+      <section class="page-hero">
+        <div class="container page-hero__inner" data-reveal>
+          <span class="page-number" aria-hidden="true">06</span>
+          <p class="eyebrow">Field notes in frames</p>
+          <h1 class="page-title">
+            The season,
+            <br />
+            <span class="accent-text">captured.</span>
+          </h1>
+          <p class="page-lead">
+            A home for the robot, the build process, coding sessions, competitions, team moments,
+            and everything that happens behind the scenes.
+          </p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="section-head" data-reveal>
+            <div>
+              <p class="section-kicker">Gallery</p>
+              <h2 class="section-title">Moments worth documenting.</h2>
+            </div>
+            <p class="section-copy">
+              The category structure and lightbox are ready. Add real team images whenever they are
+              available.
+            </p>
+          </div>
+          <div class="gallery-toolbar" data-gallery-filters aria-label="Filter gallery">
+            <button
+              class="filter-button is-active"
+              type="button"
+              data-filter="All"
+              aria-pressed="true"
+            >
+              All
+            </button>
+            <button class="filter-button" type="button" data-filter="Robot" aria-pressed="false">
+              Robot
+            </button>
+            <button
+              class="filter-button"
+              type="button"
+              data-filter="Build Process"
+              aria-pressed="false"
+            >
+              Build Process
+            </button>
+            <button
+              class="filter-button"
+              type="button"
+              data-filter="Programming"
+              aria-pressed="false"
+            >
+              Programming
+            </button>
+            <button
+              class="filter-button"
+              type="button"
+              data-filter="Competitions"
+              aria-pressed="false"
+            >
+              Competitions
+            </button>
+            <button class="filter-button" type="button" data-filter="Team" aria-pressed="false">
+              Team
+            </button>
+            <button
+              class="filter-button"
+              type="button"
+              data-filter="Behind the Scenes"
+              aria-pressed="false"
+            >
+              Behind the Scenes
+            </button>
+          </div>
+          <div class="gallery-grid" data-gallery-grid>
+            <noscript><p>Enable JavaScript to display and filter the gallery.</p></noscript>
+          </div>
+          <div class="edit-note" data-reveal>
+            <strong>Add a photo</strong>
+            <span>
+              Copy it into
+              <code>assets/images/gallery/</code>
+              , then add one entry to the
+              <code>gallery</code>
+              list in
+              <code>js/team-data-v3.js</code>
+              . The card, filter, and lightbox use that single entry.
+            </span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Accessible modal used to display one gallery item at a time -->
+    <dialog class="lightbox" data-lightbox aria-labelledby="lightbox-title">
+      <div class="lightbox__media" data-lightbox-media></div>
+      <div class="lightbox__bar">
+        <p>
+          <span data-lightbox-category>Category</span>
+          <strong id="lightbox-title" data-lightbox-title>Gallery item</strong>
+        </p>
+        <button
+          class="lightbox__close"
+          type="button"
+          data-lightbox-close
+          aria-label="Close gallery item"
+        >
+          ×
+        </button>
+      </div>
+    </dialog>
+
+    <!-- Shared site footer -->
+    <footer class="site-footer">
+      <div class="container footer-main">
+        <div class="footer-brand">
+          <a class="brand" href="index.html">
+            <span class="brand-mark" aria-hidden="true">V</span>
+            <span class="brand-copy">
+              <strong>The Viltrumites</strong>
+              <small>FTC Team #36082</small>
+            </span>
+          </a>
+          <p>Designing, engineering, programming, testing, and competing together.</p>
+        </div>
+        <div>
+          <p class="footer-heading">Navigate</p>
+          <nav class="footer-links" aria-label="Footer navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="members.html">Members</a>
+            <a href="roles.html">Roles</a>
+            <a href="robot.html">Robot</a>
+            <a href="gallery.html">Gallery</a>
+          </nav>
+        </div>
+        <div>
+          <p class="footer-heading">Connect · add links later</p>
+          <div class="social-placeholders">
+            <span>Email</span>
+            <span>Instagram</span>
+            <span>GitHub</span>
+            <span>YouTube</span>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© 2026 The Viltrumites. All rights reserved.</span>
+        <span>FTC Team #36082</span>
+      </div>
+    </footer>
+  </body>
+</html>

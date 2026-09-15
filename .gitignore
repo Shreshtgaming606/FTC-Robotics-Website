@@ -1,0 +1,12 @@
+# macOS metadata
+.DS_Store
+
+# Editor and local workspace settings
+.idea/
+.vscode/
+*.swp
+
+# Local logs and temporary files
+*.log
+tmp/
+
