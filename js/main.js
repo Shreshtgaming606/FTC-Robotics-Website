@@ -77,7 +77,7 @@
   }
 
   // Member roster -----------------------------------------------------------
-  // Content lives in team-data-v3.js so profile updates do not require HTML edits.
+  // Content lives in team-data-v4.js so profile updates do not require HTML edits.
   const data = window.VILTRUMITES_DATA || { members: [], gallery: [] };
   const initialsFor = (name) =>
     name
@@ -165,7 +165,7 @@
     if (media) {
       media.innerHTML = item.image
         ? `<img src="${item.image}" alt="${item.alt}">`
-        : `<div class="lightbox-placeholder"><span>PHOTO COMING SOON</span><small>Add the image path in js/team-data-v3.js</small></div>`;
+        : `<div class="lightbox-placeholder"><span>PHOTO COMING SOON</span><small>Add the image path in js/team-data-v4.js</small></div>`;
     }
     if (category) category.textContent = item.category;
     if (title) title.textContent = item.title;
