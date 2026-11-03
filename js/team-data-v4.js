@@ -21,16 +21,26 @@ window.VILTRUMITES_DATA = Object.freeze({
       role: "Member",
       division: "Coding",
       photo: "assets/images/members/arnav-siddarth-kotaru.jpg",
-      bio: "Biography coming soon. Add Arnav's introduction in js/team-data-v4.js.",
+      bio: "Hasn't given the owner a bio yet... therefore he is a mystery to the world.",
     },
     {
       name: "Vansh Hukkeri",
       role: "Member",
       division: "Build",
-      photo: "",
-      bio: "Biography coming soon. Add Vansh's introduction in js/team-data-v4.js.",
+      photo: "assets/images/members/vansh-hukkeri.jpg",
+      bio: "Hasn't given the owner a bio yet... therefore he is a mystery to the world.",
     },
     {
+<<<<<<< HEAD
+=======
+      name: "Rihaan Bhimani",
+      role: "Member",
+      division: "Build",
+      photo: "assets/images/members/rihaan-bhimani.jpg",
+      bio: "My name is Rihaan Bhimani. I am a builder. Some of my hobbies are playing sports such as cricket and coding in HTML. I am so glad to be included in this team!",
+    },
+    {
+>>>>>>> 98bd50192f98fa97a4dbc6270f12783f42a8eeb1
       name: "Sushant Malode",
       role: "Member",
       division: "Coding",
@@ -42,9 +52,19 @@ window.VILTRUMITES_DATA = Object.freeze({
       role: "Member",
       division: "Build",
       photo: "",
-      bio: "Biography coming soon. Add Anuj's introduction in js/team-data-v4.js.",
+      bio: "Hasn't given the owner a bio yet... therefore he is a mystery to the world.",
     },
     {
+<<<<<<< HEAD
+=======
+      name: "Satvik Vedemurthy",
+      role: "Member",
+      division: "Build",
+      photo: "assets/images/members/satvik-vedemurthy.jpg",
+      bio: "Hasn't given the owner a bio yet... therefore he is a mystery to the world.",
+    },
+    {
+>>>>>>> 98bd50192f98fa97a4dbc6270f12783f42a8eeb1
       name: "Atharv Kulkarni",
       role: "Former Member",
       division: "Robotics + Engineering",
