@@ -31,13 +31,6 @@ window.VILTRUMITES_DATA = Object.freeze({
       bio: "Hasn't given the owner a bio yet... therefore he is a mystery to the world.",
     },
     {
-      name: "Rihaan Bhimani",
-      role: "Member",
-      division: "Build",
-      photo: "assets/images/members/rihaan-bhimani.jpg",
-      bio: "My name is Rihaan Bhimani. I am a builder. Some of my hobbies are playing sports such as cricket and coding in HTML. I am so glad to be included in this team!",
-    },
-    {
       name: "Sushant Malode",
       role: "Member",
       division: "Coding",
@@ -49,13 +42,6 @@ window.VILTRUMITES_DATA = Object.freeze({
       role: "Member",
       division: "Build",
       photo: "",
-      bio: "Hasn't given the owner a bio yet... therefore he is a mystery to the world.",
-    },
-    {
-      name: "Satvik Vedemurthy",
-      role: "Member",
-      division: "Build",
-      photo: "assets/images/members/satvik-vedemurthy.jpg",
       bio: "Hasn't given the owner a bio yet... therefore he is a mystery to the world.",
     },
     {
