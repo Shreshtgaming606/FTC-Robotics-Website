@@ -34,7 +34,7 @@ window.VILTRUMITES_DATA = Object.freeze({
       name: "Sushant Malode",
       role: "Member",
       division: "Coding + Build",
-      photo: "assets/images/members/sushant-malode.jpg",
+      photo: "assets/images/members/sushant.jpg",
       bio: "My name is Sushant Malode. I am 13 years old and love to think outside the box and tinker with stuff at hand. Some of my hobbies are playing badminton, crocheting, coding, and just hanging out with my friends. I am thrilled to be part of this team!",
     },
     {
@@ -55,7 +55,7 @@ window.VILTRUMITES_DATA = Object.freeze({
       name: "Sanjay",
       role: "Member",
       division: "Drive + Coding",
-      photo: "",
+      photo: "assets/images/members/Sanjay.jpeg",
       bio: "Hasn't given the developers a bio yet... therefore he is a mystery to the world.",
     },
     {
