@@ -1245,7 +1245,7 @@ button {
 
 .roles-layout {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
@@ -1255,16 +1255,22 @@ button {
 }
 
 .role-card--code {
-  border-color: rgba(139, 92, 246, 0.24);
+  border-color: #8B5CF6;
   background:
     radial-gradient(circle at 90% 5%, rgba(139, 92, 246, 0.14), transparent 35%),
     linear-gradient(145deg, rgba(255, 255, 255, 0.045), rgba(255, 255, 255, 0.015));
 }
 
 .role-card--build {
-  border-color: rgba(255, 138, 30, 0.24);
+  border-color: #F68A5C;
   background:
     radial-gradient(circle at 90% 5%, rgba(255, 77, 31, 0.13), transparent 35%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.045), rgba(255, 255, 255, 0.015));
+}
+.role-card--drive {
+  border-color: #5CF68A;
+  background:
+    radial-gradient(circle at 90% 5%, rgba(90, 246, 137, 0.13), transparent 35%),
     linear-gradient(145deg, rgba(255, 255, 255, 0.045), rgba(255, 255, 255, 0.015));
 }
 
@@ -1286,6 +1292,13 @@ button {
 .role-card--build .role-icon {
   color: var(--orange);
   background: rgba(255, 138, 30, 0.06);
+}
+
+.role-card--drive .role-icon {
+  color: var(--green);
+  background: rgba(90, 246, 137, 0.06);
+  border-color: rgba(90, 246, 137, 0.3);
+  color: var(--green);
 }
 
 .role-card h2 {

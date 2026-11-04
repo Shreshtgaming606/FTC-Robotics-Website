@@ -19,7 +19,7 @@ window.VILTRUMITES_DATA = Object.freeze({
     {
       name: "Arnav Siddarth Kotaru",
       role: "Member",
-      division: "Coding + Design",
+      division: "Coding + Build",
       photo: "assets/images/members/arnav-siddarth-kotaru.jpg",
       bio: "Hasn't given the developers a bio yet... therefore he is a mystery to the world.",
     },
@@ -47,7 +47,7 @@ window.VILTRUMITES_DATA = Object.freeze({
     {
       name: "Atharv Kulkarni",
       role: "Former Member",
-      division: "Robotics + Engineering",
+      division: "Build",
       photo: "assets/images/members/atharv-kulkarni.png",
       bio: "We proudly honor Atharv Kulkarni, a valued part of our team whose passion for robotics, engineering, and innovation left a lasting impact on us. Although he had to move to India before he could fully pursue his dream of competing and growing with us in FTC, his excitement for robotics and willingness to learn continue to inspire our team. Atharv reminds us that being part of a robotics team is about more than just building a robot or competing at events. It is about friendship, teamwork, creativity, perseverance, and sharing a passion for creating something greater together. Even though he may no longer be with us in person, he will always remain a part of our team's story. As we design, build, code, compete, and overcome challenges throughout the season, we carry forward the same curiosity and enthusiasm that brought us together in the first place. We dedicate a part of our journey to Atharv and the dream he hoped to pursue alongside us. Once a teammate, always a teammate.",
     },
